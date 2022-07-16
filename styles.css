@@ -50,27 +50,15 @@ li {
     flex: 1 1 0;
     justify-content: space-between;
     width: 800px;
-    margin: 80px;
-    box-sizing: border-box;
-    
-    
-    
+    margin: 80px;    
 }
+
 
 .texts-section1 {
-    margin-right: 80px;
-}
-
-button {
-    margin-top: 10px;
-    background-color: #3882f6;
-    border: 0px;
-    border-radius: 6px;
-    color: white;
-    font-size: 16px;
-    padding: 0.5em 2em;
-    font-weight: bold;
-
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
     
 }
 
@@ -78,17 +66,69 @@ button {
     font-size: 49px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 900;
-    padding: 0px;  
-}
-
-p {
-    margin: 0px;
     padding: 0px;
+    flex: 1 1 0;  
 }
 
+.texts-section1 p {
+    flex: 1 1 0;
+}
 
-img {
+button {
+    background-color: #3882f6;
+    border: 0px;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    padding: 0.5em 2em;
+    font-weight: bold;
+    max-width: 8em;    
+}
+
+.image-section1 img {
+    width: 400px;
     height: 100%;
-    width: 300px;
-    margin: 0px;
+    
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 16px;
+}
+
+.card-container {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;    
+}
+
+.window {
+    width: 120px;
+    height: 120px;
+    border-width: 8px;
+    border-color: #1F2937;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+.card-text {
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+
 }
