@@ -209,3 +209,13 @@ button {
     border-radius: 8px;
 
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    font-size: 12px;
+}
