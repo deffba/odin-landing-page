@@ -166,3 +166,46 @@ button {
     font-weight: bold;
     font-size: 24px;
 }
+
+.section4 {
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 16px 80px;
+}
+
+.modal-texts {
+    flex: 1 1 0;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.modal-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.modal-body {
+    margin-top: 5px;
+    width: 90%;
+}
+
+.sign-up-button {
+    background: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 8px;
+
+}
